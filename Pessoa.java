@@ -49,4 +49,8 @@ public class Pessoa {
     public void setEndereco(String endereco) {
         this.endereco = endereco;
     }
+
+    public String toString() {
+        return this.nome + "\n" + this.cpf + "\n" + this.endereco + "\n" + this.idade + "\n";
+    }
 }
